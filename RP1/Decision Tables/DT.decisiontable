@@ -63,7 +63,7 @@
                     <ns1:suppressWarnings/>
                     <ns1:operatorType>AS</ns1:operatorType>
                     <ns1:value type="literal">
-                        <ns1:literal>10000</ns1:literal>
+                        <ns1:literal>100003</ns1:literal>
                     </ns1:value>
                 </ns1:result>
             </ns3:results>
