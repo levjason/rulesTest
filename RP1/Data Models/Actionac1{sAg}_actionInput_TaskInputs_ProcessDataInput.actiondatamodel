@@ -1,0 +1,2 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<deftemplateModel isDocTypeFieldPos="5" isDocTypeFieldNS="/actionInput;2;0/TaskInputs;2;0/ProcessData;2;0" isDocType="ac1" fromISDocType="true" isOrdered="false" isIncludeVariables="true" fromClass="pkgRP1.pkgData20Models.DMActionac17bsAg7d_actionInput_TaskInputs_ProcessDataInput" isBackchainReactive="false" isSlotSpecific="false" version="9.9.0.0.18"/>

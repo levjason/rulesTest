@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<deftemplateModel isDocTypeFieldPos="1" isDocTypeFieldNS="/actionInput;2;0" isDocType="ac1" fromISDocType="true" isOrdered="false" isIncludeVariables="true" fromClass="pkgRP1.pkgData20Models.DMActionac17bsAg7d_actionInputInput" isBackchainReactive="false" isSlotSpecific="false" version="9.9.0.0.18">
+    <slots>
+        <slot key="/processModelID;1;0" originalFieldPosition="-1" displayType="Text Field" isPasswordType="false" isUnspecifiedAllowed="true" isRequired="true" isMultiSlot="false" position="0" slotName="processModelID">
+            <dataType xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="stringdatatype" value="0"/>
+        </slot>
+        <slot key="/doctypeName;1;0" originalFieldPosition="-1" displayType="Text Field" isPasswordType="false" isUnspecifiedAllowed="true" isRequired="false" isMultiSlot="false" position="1" slotName="doctypeName">
+            <dataType xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="stringdatatype" value="0"/>
+        </slot>
+        <slot key="/protocolType;1;0" originalFieldPosition="-1" displayType="Text Field" isPasswordType="false" isUnspecifiedAllowed="true" isRequired="false" isMultiSlot="false" position="2" slotName="protocolType">
+            <dataType xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="stringdatatype" value="0"/>
+        </slot>
+        <slot key="/connectionAlias;1;0" originalFieldPosition="-1" displayType="Text Field" isPasswordType="false" isUnspecifiedAllowed="true" isRequired="false" isMultiSlot="false" position="3" slotName="connectionAlias">
+            <dataType xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="stringdatatype" value="0"/>
+        </slot>
+        <slot key="/destinationName;1;0" originalFieldPosition="-1" displayType="Text Field" isPasswordType="false" isUnspecifiedAllowed="true" isRequired="false" isMultiSlot="false" position="4" slotName="destinationName">
+            <dataType xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="stringdatatype" value="0"/>
+        </slot>
+        <slot key="/destinationType;1;0" originalFieldPosition="-1" displayType="Text Field" isPasswordType="false" isUnspecifiedAllowed="true" isRequired="false" isMultiSlot="false" position="5" slotName="destinationType">
+            <dataType xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="stringdatatype" value="0"/>
+        </slot>
+        <slot key="/TaskInputs;2;0" originalFieldPosition="-1" displayType="Text Field" isPasswordType="false" isUnspecifiedAllowed="true" isRequired="false" isMultiSlot="false" position="6" slotName="TaskInputs">
+            <dataType xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="deftemplatedatatype" deftemplatePath="/RP1/Data Models" deftemplateName="Actionac1{sAg}_actionInput_TaskInputsInput.actiondatamodel" value="999"/>
+        </slot>
+        <slot key="/document;4;0;testPackage.docs:doc1" originalFieldPosition="-1" displayType="Text Field" isPasswordType="false" isUnspecifiedAllowed="true" isRequired="true" isMultiSlot="false" position="7" slotName="document">
+            <dataType xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="deftemplatedatatype" deftemplatePath="/RP1/Data Models" deftemplateName="Actionac1{sAg}testPackage_docs_doc1Input.actiondatamodel" originalNamespace="testPackage.docs:doc1" value="999"/>
+        </slot>
+    </slots>
+</deftemplateModel>

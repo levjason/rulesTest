@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<deftemplateModel isDocTypeFieldPos="2" isDocTypeFieldNS="/actionInput;2;0/TaskInputs;2;0/TaskQueueInfo;2;0" isDocType="ac1" fromISDocType="true" isOrdered="false" isIncludeVariables="true" fromClass="pkgRP1.pkgData20Models.DMActionac17bsAg7d_actionInput_TaskInputs_TaskQueueInfoInput" isBackchainReactive="false" isSlotSpecific="false" version="9.9.0.0.18">
+    <slots>
+        <slot key="/name;1;0" originalFieldPosition="-1" displayType="Text Field" isPasswordType="false" isUnspecifiedAllowed="true" isRequired="false" isMultiSlot="false" position="0" slotName="name">
+            <dataType xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="stringdatatype" value="0"/>
+        </slot>
+        <slot key="/customTaskID;1;0" originalFieldPosition="-1" displayType="Text Field" isPasswordType="false" isUnspecifiedAllowed="true" isRequired="false" isMultiSlot="false" position="1" slotName="customTaskID">
+            <dataType xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="stringdatatype" value="0"/>
+        </slot>
+    </slots>
+</deftemplateModel>

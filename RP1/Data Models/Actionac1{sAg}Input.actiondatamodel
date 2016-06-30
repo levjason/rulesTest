@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<deftemplateModel isDocTypeFieldPos="-1" isDocType="ac1" fromISDocType="true" isOrdered="false" isIncludeVariables="true" fromClass="pkgRP1.pkgData20Models.DMac1" isBackchainReactive="false" isSlotSpecific="false" version="9.9.0.0.18">
+    <slots>
+        <slot key="/action;1;0" originalFieldPosition="-1" displayType="Text Field" isPasswordType="false" isUnspecifiedAllowed="true" isRequired="true" isMultiSlot="false" position="0" slotName="action">
+            <dataType xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="stringdatatype" value="0"/>
+            <pickList isOtherAllowed="false">
+                <pickListValues>
+                    <pickListValue>START</pickListValue>
+                    <pickListValue>JOIN</pickListValue>
+                    <pickListValue>SUSPEND</pickListValue>
+                    <pickListValue>RESUME</pickListValue>
+                    <pickListValue>FAIL</pickListValue>
+                    <pickListValue>CANCEL</pickListValue>
+                    <pickListValue>MANUAL</pickListValue>
+                </pickListValues>
+            </pickList>
+        </slot>
+        <slot key="/actionInput;2;0" originalFieldPosition="-1" displayType="Text Field" isPasswordType="false" isUnspecifiedAllowed="true" isRequired="true" isMultiSlot="false" position="1" slotName="actionInput">
+            <dataType xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="deftemplatedatatype" deftemplatePath="/RP1/Data Models" deftemplateName="Actionac1{sAg}_actionInputInput.actiondatamodel" value="999"/>
+        </slot>
+    </slots>
+</deftemplateModel>

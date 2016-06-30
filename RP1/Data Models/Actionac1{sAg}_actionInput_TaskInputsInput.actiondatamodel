@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<deftemplateModel isDocTypeFieldPos="6" isDocTypeFieldNS="/actionInput;2;0/TaskInputs;2;0" isDocType="ac1" fromISDocType="true" isOrdered="false" isIncludeVariables="true" fromClass="pkgRP1.pkgData20Models.DMActionac17bsAg7d_actionInput_TaskInputsInput" isBackchainReactive="false" isSlotSpecific="false" version="9.9.0.0.18">
+    <slots>
+        <slot key="/user;1;0" originalFieldPosition="-1" displayType="Text Field" isPasswordType="false" isUnspecifiedAllowed="true" isRequired="false" isMultiSlot="false" position="0" slotName="user">
+            <dataType xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="stringdatatype" value="0"/>
+        </slot>
+        <slot key="/taskTypeID;1;0" originalFieldPosition="-1" displayType="Text Field" isPasswordType="false" isUnspecifiedAllowed="true" isRequired="true" isMultiSlot="false" position="1" slotName="taskTypeID">
+            <dataType xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="stringdatatype" value="0"/>
+        </slot>
+        <slot key="/TaskQueueInfo;2;0" originalFieldPosition="-1" displayType="Text Field" isPasswordType="false" isUnspecifiedAllowed="true" isRequired="false" isMultiSlot="false" position="2" slotName="TaskQueueInfo">
+            <dataType xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="deftemplatedatatype" deftemplatePath="/RP1/Data Models" deftemplateName="Actionac1{sAg}_actionInput_TaskInputs_TaskQueueInfoInput.actiondatamodel" value="999"/>
+        </slot>
+        <slot key="/TaskData;2;0" originalFieldPosition="-1" displayType="Text Field" isPasswordType="false" isUnspecifiedAllowed="true" isRequired="true" isMultiSlot="false" position="3" slotName="TaskData">
+            <dataType xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="deftemplatedatatype" deftemplatePath="/RP1/Data Models" deftemplateName="Actionac1{sAg}_actionInput_TaskInputs_TaskDataInput.actiondatamodel" value="999"/>
+        </slot>
+        <slot key="/CallbackServiceName;1;0" originalFieldPosition="-1" displayType="Text Field" isPasswordType="false" isUnspecifiedAllowed="true" isRequired="false" isMultiSlot="false" position="4" slotName="CallbackServiceName">
+            <dataType xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="stringdatatype" value="0"/>
+        </slot>
+        <slot key="/ProcessData;2;0" originalFieldPosition="-1" displayType="Text Field" isPasswordType="false" isUnspecifiedAllowed="true" isRequired="false" isMultiSlot="false" position="5" slotName="ProcessData">
+            <dataType xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="deftemplatedatatype" deftemplatePath="/RP1/Data Models" deftemplateName="Actionac1{sAg}_actionInput_TaskInputs_ProcessDataInput.actiondatamodel" value="999"/>
+        </slot>
+        <slot key="/ruleSet;1;0" originalFieldPosition="-1" displayType="Text Field" isPasswordType="false" isUnspecifiedAllowed="true" isRequired="false" isMultiSlot="false" position="6" slotName="ruleSet">
+            <dataType xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="stringdatatype" value="0"/>
+        </slot>
+    </slots>
+</deftemplateModel>
