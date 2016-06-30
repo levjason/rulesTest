@@ -43,22 +43,28 @@
                 <ns1:condition>
                     <ns1:fieldId>1</ns1:fieldId>
                     <ns1:suppressWarnings/>
-                    <ns1:operatorType>UNDEF</ns1:operatorType>
-                    <ns1:value type="undef"/>
+                    <ns1:operatorType>EQ</ns1:operatorType>
+                    <ns1:value type="literal">
+                        <ns1:literal>50</ns1:literal>
+                    </ns1:value>
                 </ns1:condition>
                 <ns1:condition>
                     <ns1:fieldId>2</ns1:fieldId>
                     <ns1:suppressWarnings/>
-                    <ns1:operatorType>UNDEF</ns1:operatorType>
-                    <ns1:value type="undef"/>
+                    <ns1:operatorType>EQ</ns1:operatorType>
+                    <ns1:value type="literal">
+                        <ns1:literal>Helen</ns1:literal>
+                    </ns1:value>
                 </ns1:condition>
             </ns3:conditions>
             <ns3:results>
                 <ns1:result>
                     <ns1:fieldId>3</ns1:fieldId>
                     <ns1:suppressWarnings/>
-                    <ns1:operatorType>UNDEF</ns1:operatorType>
-                    <ns1:value type="undef"/>
+                    <ns1:operatorType>AS</ns1:operatorType>
+                    <ns1:value type="literal">
+                        <ns1:literal>10000</ns1:literal>
+                    </ns1:value>
                 </ns1:result>
             </ns3:results>
             <ns3:suppressWarnings/>
