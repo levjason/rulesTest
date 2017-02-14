@@ -59,9 +59,99 @@
           </test>
         </slot>
       </pattern>
+      <pattern>
+        <name>$$MODULENAME$$::DMDM1</name>
+        <slot>
+          <name>slotAge</name>
+          <test>
+            <type>eq</type>
+            <value type='VARIABLE'>s0</value>
+            
+          </test>
+          <test>
+            <type>neq</type>
+            <conjunction>and</conjunction>
+            <value type='SYMBOL'>nil</value>
+            
+          </test>
+          <test>
+            <type>eq</type>
+            <conjunction>and</conjunction>
+            <funcall>
+              <name>checkEQ</name>
+              <value type='VARIABLE'>s0</value>
+              
+              <value type='INTEGER'>50</value>
+              
+            </funcall>
+            
+          </test>
+        </slot>
+        <slot>
+          <name>slotName</name>
+          <test>
+            <type>eq</type>
+            <value type='VARIABLE'>s1</value>
+            
+          </test>
+          <test>
+            <type>neq</type>
+            <conjunction>and</conjunction>
+            <value type='SYMBOL'>nil</value>
+            
+          </test>
+          <test>
+            <type>eq</type>
+            <conjunction>and</conjunction>
+            <funcall>
+              <name>checkEQ</name>
+              <value type='VARIABLE'>s1</value>
+              
+              <funcall>
+                <name>ParameterHelper.getJessString</name>
+                <value type='STRING'>Helen</value>
+                
+              </funcall>
+              
+            </funcall>
+            
+          </test>
+        </slot>
+        <slot>
+          <name>OBJECT</name>
+          <test>
+            <type>eq</type>
+            <value type='VARIABLE'>dm0</value>
+            
+          </test>
+          <test>
+            <type>eq</type>
+            <conjunction>and</conjunction>
+            <value type='VARIABLE'>_DMDM1_DM1_1</value>
+            
+          </test>
+        </slot>
+      </pattern>
     </group>
   </lhs>
   <rhs>
+    <funcall>
+      <name>setMember</name>
+      <value type='VARIABLE'>_DMDM1_DM1_1</value>
+      
+      <funcall>
+        <name>create$</name>
+        <value type='STRING'>/premium;3.7;0</value>
+        
+      </funcall>
+      
+      <value type='INTEGER'>100003</value>
+      
+      <value type='SYMBOL'>FALSE</value>
+      
+      <value type='SYMBOL'>FALSE</value>
+      
+    </funcall>
   </rhs>
 </rule>
 

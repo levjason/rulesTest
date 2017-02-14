@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<deftemplateModel isDocTypeFieldPos="-1" isDocType="testPackage.docs:doc1" isPackage="TestPackage" fromISDocType="true" isOrdered="false" isIncludeVariables="true" fromClass="pkgRP1.pkgData20Models.DMActionac17bsAg7dtestPackage_docs_doc1Input" isBackchainReactive="false" isSlotSpecific="false" version="9.9.0.0.18">
+<?xml version="1.0" encoding="UTF-8"?><deftemplateModel isDocTypeFieldPos="-1" isDocType="testPackage.docs:doc1" isPackage="TestPackage" fromISDocType="true" isOrdered="false" isIncludeVariables="true" fromClass="pkgRP1.pkgData20Models.DMActionac17bsAg7dtestPackage_docs_doc1Input" isBackchainReactive="false" isSlotSpecific="false" version="10.0.0.0.85">
     <slots>
         <slot key="/Name;1;0" originalFieldPosition="-1" displayType="Text Field" isPasswordType="false" isUnspecifiedAllowed="true" isRequired="true" isMultiSlot="false" position="0" slotName="Name">
             <dataType xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:type="stringdatatype" value="0"/>

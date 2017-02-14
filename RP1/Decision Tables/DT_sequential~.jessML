@@ -83,8 +83,12 @@
 </query>
 
 <function>
-  <name>tryCatch_32446f42-5587-4002-a163-5392ac02ffc2</name>
+  <name>tryCatch_229fce46-4bfe-4986-932b-cc31a8cb3ded</name>
   <arguments>
+    <argument>
+      <name>_DMDM1_DM1_1</name>
+      <type>VARIABLE</type>
+    </argument>
   </arguments>
   <funcall>
     <name>try</name>
@@ -97,6 +101,50 @@
           <value type='SYMBOL'>nil</value>
           
           <value type='VARIABLE'>_DMDM1_DM1_1</value>
+          
+        </funcall>
+        
+        <funcall>
+          <name>eq</name>
+          <value type='SYMBOL'>TRUE</value>
+          
+          <funcall>
+            <name>checkEQ</name>
+            <funcall>
+              <name>create$</name>
+              <value type='VARIABLE'>_DMDM1_DM1_1</value>
+              
+              <value type='STRING'>/Age;3.6;0</value>
+              
+            </funcall>
+            
+            <value type='INTEGER'>50</value>
+            
+          </funcall>
+          
+        </funcall>
+        
+        <funcall>
+          <name>eq</name>
+          <value type='SYMBOL'>TRUE</value>
+          
+          <funcall>
+            <name>checkEQ</name>
+            <funcall>
+              <name>create$</name>
+              <value type='VARIABLE'>_DMDM1_DM1_1</value>
+              
+              <value type='STRING'>/Name;1;0</value>
+              
+            </funcall>
+            
+            <funcall>
+              <name>ParameterHelper.getJessString</name>
+              <value type='STRING'>Helen</value>
+              
+            </funcall>
+            
+          </funcall>
           
         </funcall>
         
@@ -183,12 +231,32 @@
       <value type='SYMBOL'>TRUE</value>
       
       <funcall>
-        <name>tryCatch_32446f42-5587-4002-a163-5392ac02ffc2</name>
+        <name>tryCatch_229fce46-4bfe-4986-932b-cc31a8cb3ded</name>
+        <value type='VARIABLE'>_DMDM1_DM1_1</value>
+        
       </funcall>
       
     </funcall>
     
     <value type='SYMBOL'>then</value>
+    
+    <funcall>
+      <name>setMember</name>
+      <value type='VARIABLE'>_DMDM1_DM1_1</value>
+      
+      <funcall>
+        <name>create$</name>
+        <value type='STRING'>/premium;3.7;0</value>
+        
+      </funcall>
+      
+      <value type='INTEGER'>100003</value>
+      
+      <value type='SYMBOL'>FALSE</value>
+      
+      <value type='SYMBOL'>TRUE</value>
+      
+    </funcall>
     
   </funcall>
   

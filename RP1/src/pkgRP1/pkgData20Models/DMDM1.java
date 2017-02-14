@@ -7,6 +7,7 @@ import com.softwareag.rules.datamodel.IDataAnnotation;
   private String slotName;
   private Integer slotAge;
   private Long slotpremium;
+  private DMpub_publish_envelope slot_env;
   @IDataAnnotation(OriginalFieldName="Name",FieldName="slotName",SlotKey="/Name;1;0",Position=0,CameFromFloat=false) public String getSlotName(){
     return this.slotName;
   }
@@ -56,5 +57,11 @@ import com.softwareag.rules.datamodel.IDataAnnotation;
  else {
       this.slotpremium=null;
     }
+  }
+  @IDataAnnotation(OriginalFieldName="_env",FieldName="slot_env",SlotKey="/_env;4;0;pub.publish:envelope",Position=3,CameFromFloat=false) public DMpub_publish_envelope getSlot_env(){
+    return this.slot_env;
+  }
+  @IDataAnnotation(OriginalFieldName="_env",FieldName="slot_env",SlotKey="/_env;4;0;pub.publish:envelope",Position=3,CameFromFloat=false) public void setSlot_env(  DMpub_publish_envelope param_env){
+    this.slot_env=param_env;
   }
 }

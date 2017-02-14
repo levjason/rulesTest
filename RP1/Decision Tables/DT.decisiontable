@@ -1,14 +1,13 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<ns3:decisionTable xmlns:ns1="http://com.softwareag.rules/metaphor" xmlns:ns2="http://com.softwareag.rules/er" xmlns:ns3="http://com.softwareag.rules/dt" processingMode="sequentialProcessingAllFired" version="9.9.0.0.18">
-    <ns1:comment></ns1:comment>
+<?xml version="1.0" encoding="UTF-8"?><ns3:decisionTable xmlns:ns3="http://com.softwareag.rules/dt" xmlns:ns1="http://com.softwareag.rules/metaphor" xmlns:ns2="http://com.softwareag.rules/er" processingMode="sequentialProcessingAllFired" version="10.0.0.0.85">
+    <ns1:comment/>
     <ns1:actions/>
     <ns1:parameters>
-        <ns1:parameter type="data model" name="DM1_1" ioKey="-53310d54:15182c020e9:-7fe8" parameterType="both" matchAny="false">
+        <ns1:parameter ioKey="-53310d54:15182c020e9:-7fe8" matchAny="false" name="DM1_1" parameterType="both" type="data model">
             <ns1:model>/RP1/Data Models/DM1.datamodel</ns1:model>
         </ns1:parameter>
     </ns1:parameters>
     <ns1:fields>
-        <ns1:field id="1">
+        <ns1:field id="8aea82b6-6ca1-4e43-896a-b2d27ae2ecc8">
             <ns1:name>Age</ns1:name>
             <ns1:fieldType>condition</ns1:fieldType>
             <ns1:slotKey>/Age;3.6;0</ns1:slotKey>
@@ -17,7 +16,7 @@
             <ns1:qualifiedName>DM1_1.Age</ns1:qualifiedName>
             <ns1:suppressWarnings/>
         </ns1:field>
-        <ns1:field id="2">
+        <ns1:field id="0ea49a1d-feb1-4ea4-9b9b-1cfcc5100ec8">
             <ns1:name>Name</ns1:name>
             <ns1:fieldType>condition</ns1:fieldType>
             <ns1:slotKey>/Name;1;0</ns1:slotKey>
@@ -26,7 +25,7 @@
             <ns1:qualifiedName>DM1_1.Name</ns1:qualifiedName>
             <ns1:suppressWarnings/>
         </ns1:field>
-        <ns1:field id="3">
+        <ns1:field id="d6420dae-1ba8-4800-b3a2-e17fad8172a1">
             <ns1:name>premium</ns1:name>
             <ns1:fieldType>result</ns1:fieldType>
             <ns1:slotKey>/premium;3.7;0</ns1:slotKey>
@@ -39,33 +38,58 @@
     <ns1:suppressWarnings/>
     <ns3:rules>
         <ns3:rule>
+            <ns3:id>32123e22-9c63-4a0a-aac0-87ef9cb0a540</ns3:id>
             <ns3:conditions>
-                <ns1:condition>
-                    <ns1:fieldId>1</ns1:fieldId>
-                    <ns1:suppressWarnings/>
+                
+                
+            <ns3:conditionCell>
+                    <ns3:id>548777ce-7df0-4424-a6bb-be959a0647a2</ns3:id>
+                    <ns3:condition>
+                    
+                    
                     <ns1:operatorType>EQ</ns1:operatorType>
                     <ns1:value type="literal">
                         <ns1:literal>50</ns1:literal>
                     </ns1:value>
-                </ns1:condition>
-                <ns1:condition>
-                    <ns1:fieldId>2</ns1:fieldId>
-                    <ns1:suppressWarnings/>
+                <ns1:expressionProperties>
+                            <ns1:fieldId>8aea82b6-6ca1-4e43-896a-b2d27ae2ecc8</ns1:fieldId>
+                            <ns1:suppressWarnings/>
+                        </ns1:expressionProperties>
+                    </ns3:condition>
+                </ns3:conditionCell>
+                <ns3:conditionCell>
+                    <ns3:id>f55172ca-6fc2-4923-9eb9-86d24706e4ae</ns3:id>
+                    <ns3:condition>
+                    
+                    
                     <ns1:operatorType>EQ</ns1:operatorType>
                     <ns1:value type="literal">
                         <ns1:literal>Helen</ns1:literal>
                     </ns1:value>
-                </ns1:condition>
+                <ns1:expressionProperties>
+                            <ns1:fieldId>0ea49a1d-feb1-4ea4-9b9b-1cfcc5100ec8</ns1:fieldId>
+                            <ns1:suppressWarnings/>
+                        </ns1:expressionProperties>
+                    </ns3:condition>
+                </ns3:conditionCell>
             </ns3:conditions>
             <ns3:results>
-                <ns1:result>
-                    <ns1:fieldId>3</ns1:fieldId>
-                    <ns1:suppressWarnings/>
+                
+            <ns3:resultCell>
+                    <ns3:id>cbe7b67a-3556-4317-9482-6cf628fbebeb</ns3:id>
+                    <ns3:result>
+                    
+                    
                     <ns1:operatorType>AS</ns1:operatorType>
                     <ns1:value type="literal">
                         <ns1:literal>100003</ns1:literal>
                     </ns1:value>
-                </ns1:result>
+                <ns1:expressionProperties>
+                            <ns1:fieldId>d6420dae-1ba8-4800-b3a2-e17fad8172a1</ns1:fieldId>
+                            <ns1:suppressWarnings/>
+                        </ns1:expressionProperties>
+                    </ns3:result>
+                </ns3:resultCell>
             </ns3:results>
             <ns3:suppressWarnings/>
         </ns3:rule>

@@ -1,6 +1,5 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<action xmlns="http://com.softwareag.rules/action" version="9.9.0.0.18">
-    <comment></comment>
+<?xml version="1.0" encoding="UTF-8"?><action xmlns="http://com.softwareag.rules/action" version="10.0.0.0.85">
+    <comment/>
     <type>Process Action</type>
     <implementation>
         <imports/>
