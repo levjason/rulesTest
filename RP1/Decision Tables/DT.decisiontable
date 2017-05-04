@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><ns3:decisionTable xmlns:ns3="http://com.softwareag.rules/dt" xmlns:ns1="http://com.softwareag.rules/metaphor" xmlns:ns2="http://com.softwareag.rules/er" processingMode="sequentialProcessingAllFired" version="10.0.0.0.85">
-    <ns1:comment/>
+    <ns1:comment>lorem impsum factum<>
     <ns1:actions/>
     <ns1:parameters>
         <ns1:parameter ioKey="-53310d54:15182c020e9:-7fe8" matchAny="false" name="DM1_1" parameterType="both" type="data model">
